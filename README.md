@@ -8,8 +8,12 @@ This project is a clone of the Netflix website, built solely using HTML and CSS.
 ![netflix2](https://github.com/srishtibhriegu/Netflix-Clone/assets/126707268/268d2296-acbe-4639-962c-1be803a9919d)
 ![netflix3](https://github.com/srishtibhriegu/Netflix-Clone/assets/126707268/e4ee785e-0332-4cf3-b283-caf1612cc881)
 
+## Mobile View
+![netflix4](https://github.com/srishtibhriegu/Netflix-Clone/assets/126707268/03c0bc43-73ba-4d63-b928-ed2b9ceeff9e)
+
 
 ## Features
+
 - Responsive design
 - Similar layout to Netflix's homepage
 
