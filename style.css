@@ -207,9 +207,6 @@ section.first > div {
 
 .faq h2 {
   text-align: center;
-}
-
-h2 {
   font-size: 45px;
 }
 
@@ -235,31 +232,30 @@ h2 {
   justify-content: space-between;
   background-color: rgb(41, 40, 40);
   padding: 20px;
-  max-width: 40vw;
   margin: 24px auto;
   cursor: pointer;
 }
 
 footer {
-  color: white;
+  color: rgb(120, 117, 117);
   max-width: 60vw;
   margin: auto;
   padding: 14px;
 }
 
-footer.question {
+.question {
   padding: 34px 0;
 }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  color: white;
+  color: rgb(112, 111, 111);
 }
 
 .footer a {
   font-size: 14px;
-  color: white;
+  color: rgb(143, 139, 139);
 }
 
 .footer-item {
@@ -335,5 +331,56 @@ footer.question {
     border-radius: 1vw;
     background-color: red;
     border-color: rgba(0, 0, 0, 0);
+  }
+  .first{
+    flex-direction: column;
+  }
+  .scimg img {
+    width: 60vw;
+    z-index: 30;
+  }
+  
+  .scimg video {
+    position: absolute;
+    width: 55vw;
+  }
+  .first span{
+     padding-top: 2vw;
+  }
+  section.first > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 34px 0;
+  }
+  
+  .first > div :nth-child(1) {
+    font-size: 6vw;
+    font-weight: bolder;
+  }
+  
+  .first > div :nth-child(2) {
+    font-size: 6vw;
+    font-weight: 400;
+  }
+  
+  .first > div :nth-child(3) {
+    font-size: 5vw;
+    font-weight: 400;
+  }
+  .faq h2 {
+    text-align: center;
+    font-size: 6vw;
+  }
+  
+  .faqbox span{
+    font-size: 4vw;
+  }
+ .question {
+    font-size: 3vw;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
   }
 }
