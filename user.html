@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Who's Watching?</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Who's Watching?</h1>
+        <div class="profiles">
+            <div class="profile" onclick="selectProfile('User 1')">
+                <img src="assets/image/users/1.png" alt="User 1">
+                <p>Srishti</p>
+            </div>
+            <div class="profile" onclick="selectProfile('User 2')">
+                <img src="assets/image/users/2.png" alt="User 2">
+                <p>Saumya</p>
+            </div>
+            <div class="profile" onclick="selectProfile('User 3')">
+                <img src="assets/image/users/3.png" alt="User 3">
+                <p>Mayank</p>
+            </div>
+            <div class="profile" onclick="selectProfile('Kids')">
+                <img src="assets/image/users/kids.jpg" alt="Kids">
+                <p>Kids</p>
+            </div>
+        </div>
+        <button class="manage-btn">Manage Profiles</button>
+    </div>
+    <script src="user.js"></script>
+</body>
+</html>
